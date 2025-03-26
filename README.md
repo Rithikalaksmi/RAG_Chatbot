@@ -1,10 +1,10 @@
                                                           RAG Chatbot
 
-Abstract:
+##Abstract:
 The RAG (Retrieval-Augmented Generation) Chatbot integrates FAISS (Facebook AI Similarity Search) and Gemini AI to create an intelligent chatbot capable of understanding, retrieving, and generating context-aware responses. By leveraging embedding models for vector search and Google’s Gemini API for response generation, the chatbot enhances accuracy in answering user queries based on uploaded documents (PDFs, DOCX, images, videos, etc.).
 This solution enables fast, accurate, and context-aware information retrieval, making it ideal for applications such as customer support, legal document analysis, educational assistance, and enterprise knowledge management.
 
-Objectives:
+##Objectives:
 
 The primary objectives of this chatbot are:
 
@@ -19,7 +19,7 @@ The primary objectives of this chatbot are:
 •	User-Friendly Interface – Provide an interactive, accessible chatbot experience via Streamlit.
 
  
- Features:
+##Features:
  
  Document Upload & Processing:
  
@@ -59,7 +59,7 @@ The primary objectives of this chatbot are:
 
 
 
-Model Architecture:
+##Model Architecture:
 
 The chatbot is built on a Retrieval-Augmented Generation (RAG) pipeline, which consists of:
 
@@ -91,7 +91,9 @@ Document Processing & Embedding Generation
 •	The answer is displayed via Streamlit’s web interface.
 
 
+##Run using:
 
+     streamlit run chatbot.py
 
 ##Output:
 ![image](https://github.com/user-attachments/assets/427f987a-b145-4ca4-bf1e-da40310a4224)
@@ -120,7 +122,7 @@ Document Processing & Embedding Generation
  
  
 
-Conclusion
+##Conclusion
 The RAG Chatbot with FAISS & Gemini AI is a powerful, intelligent system capable of retrieving, processing, and responding to user queries based on uploaded documents. With multi-format support, efficient vector search, and AI-powered response generation, this chatbot offers a scalable, accurate, and efficient solution for various industries.
 
 
